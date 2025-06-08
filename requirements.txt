@@ -1,0 +1,12 @@
+
+python-dotenv==1.0.0
+Flask==2.3.2
+requests
+python-telegram-bot[webhooks]
+python-telegram-bot[job-queue]
+python-telegram-bot==20.6
+aiohttp==3.9.5
+reportlab==4.2.2
+cachetools==5.3.3
+gunicorn==20.1.0
+

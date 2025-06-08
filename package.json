@@ -1,0 +1,9 @@
+{
+  "name": "ethiopian-student-results-bot",
+  "version": "1.0.0",
+  "description": "A Telegram bot to fetch Ethiopian student results.",
+  "scripts": {
+    "start": "python bot.py"
+  },
+  "dependencies":{}
+}
