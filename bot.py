@@ -666,7 +666,7 @@ def main() -> None:
     application.add_handler(CommandHandler("stats", stats))
     application.add_error_handler(error_handler)
 
-    webhook_url = os.getenv("WEBHOOK_URL", f"https://yemechersha-lc36.onrender.com/{TOKEN}")
+    webhook_url = os.getenv("WEBHOOK_URL", f"https://twotebot.onrender.com/{TOKEN}")
     port = int(os.getenv("PORT", 5000))
 
     if webhook_url:
